@@ -81,18 +81,29 @@ const Homepage = () => {
         </p>
       </div>
       <div className="bg-[#EC3237] flex flex-col items-center md:items-start justify-center md:flex-row md:justify-around m-2 h-28 pt-4">
-        <div className="text-white flex items-center">
+        <a href="tel:18002001234" className="text-white flex items-center">
           <FaPhone size="22" className="mr-1" />
           <span className="text-xs">Toll free 1800 200 1234</span>
-        </div>
-        <div className="text-white flex items-center">
+        </a>
+        <a
+          href="https://www.facebook.com/cripumps"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-white flex items-center"
+        >
           <FaFacebook size="22" className="mr-1" />
           <span className="text-xs">www.facebook.com/cripumps</span>
-        </div>
-        <div className="text-white flex items-center">
+        </a>
+
+        <a
+          href="https://www.crigroups.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-white flex items-center"
+        >
           <Icon icon="mdi:web" width="24" className="mr-1" />
           <span className="text-xs">www.crigroups.com</span>
-        </div>
+        </a>
       </div>
     </div>
   );
